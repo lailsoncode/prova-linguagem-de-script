@@ -49,6 +49,8 @@ for (i = 0; i < 5; i++) {
     numeros.push(nums);
 }
 
+maiorNumero(numeros);
+
 function maiorNumero(numeros) {
     console.log(Math.max.apply(null, numeros));
 }
